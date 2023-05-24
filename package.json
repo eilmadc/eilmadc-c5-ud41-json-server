@@ -1,0 +1,21 @@
+{
+  "name": "eilmadc-c5-ud41-json-server",
+  "version": "0.1.0",
+  "description": "ejemplo de json server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "json-server --watch database.json"
+  },
+  "keywords": [
+    "json",
+    "server",
+    "api",
+    "rest"
+  ],
+  "author": "Elena López",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
